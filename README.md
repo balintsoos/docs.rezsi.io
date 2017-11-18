@@ -20,3 +20,10 @@ Developer and user documentation for rezsi.io
     - adatbázisok
     - modulfelbontás
   - tesztelési terv és tesztelés eredményei
+
+## Formai követelmények
+1. nyomtatva, bekötve
+2. első oldal fejlécében ELTE embléma, egyetem, kar, témavezető tanszéke
+3. első oldal törzsében szakdolgozat címe, szerzője, szakja, témavezető neve, beadás helye, védés éve (2018?)
+4. második oldal a szakdolgozat téma bejelentő
+5. tartalomjegyzék
