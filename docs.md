@@ -50,3 +50,5 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 
 ### React
 ### Redux
+
+## Tesztelés
