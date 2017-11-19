@@ -14,7 +14,7 @@ egyetemi adjunktus
 
 Soós Bálint
 
-Programtervező informatikus Bsc
+programtervező informatikus Bsc
 
 Budapest, 2018
 
