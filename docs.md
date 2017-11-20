@@ -45,12 +45,25 @@ Az alkalmazás használatához szükség van egy JavaScript futtatására alkalm
 
 ## Alkalmazás használata
 
-### Regisztráció
-Az alkalmazás használatához rendelkeznünk kell egy regisztrált fiókkal, amit a Sign Up (Regisztrálás) aloldalon hozhatunk létre. Meg kell adnunk az email címünket, felhasználó nevünket (Ajánlott a valódi nevünket használni, hiszen a közös képviselő így tud a legegyszerűbben beazonosítani.) és a jelszónkat. Sikeres regisztráció esetén a megadott email címre egy visszaigazoló email fog érkezni. Az emailben található gomra kattintva megerősíthetjük, hogy valódi címet adtunk meg.
+### Alkalmazás használata közös képviselők számára
+#### Regisztráció
+Az alkalmazás használatához rendelkeznünk kell egy regisztrált fiókkal, amit a Sign Up (Regisztrálás) aloldalon hozhatunk létre. Meg kell adnunk az email címünket, felhasználó nevünket és a jelszónkat. Sikeres regisztráció esetén a megadott email címre egy visszaigazoló email fog érkezni. Az emailben található gombra kattintva erősítsük meg, hogy valódi címet adtunk meg.
 
 > Sign Up screenshot
 
-### Bejelentkezés
+#### Bejelentkezés
+Az alkalmazásba való belépéshez navigáljunk a Login (Bejelentkezés) aloldalra és írjuk be a regisztrációkor megadott email címet és jelszót.
+
+> Login screenshot
+
+### Alkalmazás használata lakók számára
+#### Regisztráció
+Az alkalmazás használatához rendelkeznünk kell egy regisztrált fiókkal, amit a közös képviselőtől kapott linken keresztül tehetünk meg. Meg kell adnunk az email címünket, felhasználó nevünket és a jelszónkat. Ajánlott a valódi nevünket használni, hiszen a közös képviselő így tud a legegyszerűbben beazonosítani minket. Sikeres regisztráció esetén a megadott email címre egy visszaigazoló email fog érkezni. Az emailben található gombra kattintva erősítsük meg, hogy valódi címet adtunk meg.
+
+> Sign Up screenshot
+
+#### Bejelentkezés
+Az alkalmazásba való belépéshez navigáljunk a Login (Bejelentkezés) aloldalra és írjuk be a regisztrációkor megadott email címet és jelszót.
 
 > Login screenshot
 
@@ -64,16 +77,25 @@ Az alkalmazás használatához rendelkeznünk kell egy regisztrált fiókkal, am
 ### A fejlesztőkörnyezet kialakítása
 
 ## Szerver oldali architektúra
-
-### Felhasznált technológiák
-#### Node.js
-#### MongoDB
-#### JWT
-#### WebSocket
-
 ### API
+#### Végpontok
+#### Felhasznált technológiák
+##### Node.js
+##### Express
+
 ### Adatbázis
+#### Felhasznált technológiák
+##### MongoDB
+##### Mongoose
+
 ### Authentikáció
+#### Felhasznált technológiák
+##### Passport.js
+##### JWT
+
+### Értesítési rendszer
+#### Felhasznált technológiák
+##### WebSocket
 
 ## Kliens oldali architektúra
 
