@@ -36,15 +36,23 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 
 # Felhasználói dokumentáció
 
-## Rendszerkövetelmények
-Az alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre és internet hozzáférésre.
+## Követelmények
+Az alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre, internet hozzáférésre és email címre. Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra is.
 
 ### Támogatott böngészők:
 - Google Chrome (v62.x)
 - Google Chrome for Android (v62.x)
 
-## Tudnivalók
-Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra.
+## Alkalmazás használata
+
+### Regisztráció
+Az alkalmazás használatához rendelkeznünk kell egy regisztrált fiókkal, amit a Sign Up (Regisztrálás) aloldalon hozhatunk létre. Meg kell adnunk az email címünket, felhasználó nevünket (Ajánlott a valódi nevünket használni, hiszen a közös képviselő így tud a legegyszerűbben beazonosítani.) és a jelszónkat. Sikeres regisztráció esetén a megadott email címre egy visszaigazoló email fog érkezni. Az emailben található gomra kattintva megerősíthetjük, hogy valódi címet adtunk meg.
+
+> Sign Up screenshot
+
+### Bejelentkezés
+
+> Login screenshot
 
 # Fejlesztői dokumentáció
 
