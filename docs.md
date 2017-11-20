@@ -39,6 +39,8 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 # Fejlesztői dokumentáció
 
 ## Specifikáció
+## Elemzés
+## Tervezés
 
 ## Szerver oldal
 
