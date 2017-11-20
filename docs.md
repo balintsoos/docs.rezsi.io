@@ -18,11 +18,7 @@ programtervező informatikus Bsc
 
 Budapest, 2018
 
-----
-
-Tartalomjegyzék
-
-----
+# Tartalomjegyzék
 
 # Bevezetés
 
