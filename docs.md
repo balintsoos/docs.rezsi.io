@@ -54,15 +54,16 @@ Az alkalmazás csak angol nyelven érhető el, így szükség van minimális ang
 ## Elemzés
 ## Tervezés
 
-## Szerver oldal
+## Szerver oldali architektúra
 
 ### API
 ### Adatbázis
 ### Authentikáció
 
-## Kliens oldal
+## Kliens oldali architektúra
 
 ### React
 ### Redux
+### Komponens hierarchia
 
 ## Tesztelés
