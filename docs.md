@@ -48,13 +48,20 @@ Az alkalmazás csak angol nyelven érhető el, így szükség van minimális ang
 
 # Fejlesztői dokumentáció
 
-## Fejlesztői környezet
-
 ## Specifikáció
 ## Elemzés
 ## Tervezés
 
+## Fejlesztői környezet
+### A fejlesztőkörnyezet kialakítása
+
 ## Szerver oldali architektúra
+
+### Felhasznált technológiák
+#### Node.js
+#### MongoDB
+#### JWT
+#### WebSocket
 
 ### API
 ### Adatbázis
@@ -62,8 +69,11 @@ Az alkalmazás csak angol nyelven érhető el, így szükség van minimális ang
 
 ## Kliens oldali architektúra
 
-### React
-### Redux
+### Felhasznált technológiák
+#### React
+#### Redux
+
 ### Komponens hierarchia
+### Kommunikáció
 
 ## Tesztelés
