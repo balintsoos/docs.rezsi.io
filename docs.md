@@ -36,7 +36,19 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 
 # Felhasználói dokumentáció
 
+## Rendszerkövetelmények
+Az alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre és internet hozzáférésre.
+
+### Támogatott böngészők:
+- Google Chrome (v62.x)
+- Google Chrome for Android (v62.x)
+
+## Tudnivalók
+Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra.
+
 # Fejlesztői dokumentáció
+
+## Fejlesztői környezet
 
 ## Specifikáció
 ## Elemzés
