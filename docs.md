@@ -56,13 +56,16 @@ Az alkalmazásba való belépéshez navigáljunk a Login (Bejelentkezés) alolda
 Jövőbeli felhasználóinkat (lakóinkat) saját preferenciáink szerint csoportokba oszthatjuk. A csoportosítás módja a közös képviselőre van bízva, ez lehet például épület, lépcsőház, vagy akár szint alapján. Egy felhasználó csak egy darab csoport tagja lehet. Új csoport létrehozásához a csoport nevét kell megadni.
 
 > Groups screenshot
+
 > Create group screenshot
 
 #### Csoport szerkesztése és törlése
 A már létező csoportok nevét átírhatjuk, vagy akár törölhetjük az egész csoportot a hozzá tartozó felhasználókkal együtt. Ebben az esetben a törölt felhasználók többé nem lesznek képesek bejelentkezni az alkalmazásba.
 
 > Group options screenshot
+
 > Edit group screenshot
+
 > Delete group screenshot
 
 ### Alkalmazás használata lakók számára
