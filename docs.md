@@ -82,9 +82,10 @@ A már létező csoportok nevét átírhatjuk, vagy akár törölhetjük az egé
 A csoportba felvett lakókat egyesével törölhetjük. A törölt lakók többé már nem lesznek képesek bejelentkenzni az alkalmazásba. Újrafelvételükhöz újra regisztrálni kell.
 
 #### Csoportos számla kiállítása
+A csoport összes tagja számára egyszerre tudunk kiállítani számlát. Ehhez meg kell adnunk a számlázási időszak kezdetének dátumát, a számlázási időszak végének dátumát, a pénznemet, a fűtés egységárát pénznem/kWh-ban, a melegvíz egységárát köbméter/pénznemben, és a hidegvíz egységárát köbméter/pénznemben.
 
 #### Csoportos számla adatainak letöltése
-A kiállított csoportos számla adatait letölthetjük CSV formátumban. Ehhez a csoport számláinak listájában a számla alatti Download as CSV gombra kell kattintani. A fájl egy sora tartalmazza a csoporthoz tartozó lakó nevét, email címét, az adott időszakban felhasznált fűtés mennyiségét kWh-ban, a fűtés alapdíját pénznem/kWh-ban, fűtés összdíjat az adott pénznemben, melegvíz fogyasztást köbméterben, melegvíz alapdíját köbméter/pénznemben, melegvíz összdíját, hidegvíz fogyasztást köbméterben, hidegvíz alapdíját köbméter/pénznemben, hidegvíz összdíját, a megadott pénznemet és a végösszeget.
+A kiállított csoportos számla adatait letölthetjük CSV formátumban. Ehhez a csoport számláinak listájában a számla alatti Download as CSV gombra kell kattintani. A fájl egy sora tartalmazza a csoporthoz tartozó lakó nevét, email címét, az adott időszakban felhasznált fűtés mennyiségét kWh-ban, a fűtés egységárát pénznem/kWh-ban, fűtés összdíját az adott pénznemben, melegvíz fogyasztást köbméterben, melegvíz egységárát köbméter/pénznemben, melegvíz összdíját, hidegvíz fogyasztást köbméterben, hidegvíz egységárát köbméter/pénznemben, hidegvíz összdíját, a megadott pénznemet és a végösszeget.
 
 #### Lakó fogyasztási adatainak és számláinak megtekintése
 
