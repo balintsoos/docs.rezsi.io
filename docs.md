@@ -76,16 +76,20 @@ A már létező csoportok nevét átírhatjuk, vagy akár törölhetjük az egé
 #### Lakók meghívása a csoportba
 Új lakók meghívásához kattintsunk az adott csoport lakóinak listájánál az Invite gombra. A megjelenő párbeszédablakban található linken keresztül tudnak regisztrálni a lakók a csoportunkba. Ez a link teljesen publikus, így fokozottan figyeljünk oda, hogy kinek küldjük el.
 
+> Invite dialog screenshot
+
 #### Lakó törlése
 A csoportba felvett lakókat egyesével törölhetjük. A törölt lakók többé már nem lesznek képesek bejelentkenzni az alkalmazásba. Újrafelvételükhöz újra regisztrálni kell.
 
 #### Csoportos számla kiállítása
 
 #### Csoportos számla adatainak letöltése
+A kiállított csoportos számla adatait letölthetjük CSV formátumban. Ehhez a csoport számláinak listájában a számla alatti Download as CSV gombra kell kattintani. A fájl egy sora tartalmazza a csoporthoz tartozó lakó nevét, email címét, az adott időszakban felhasznált fűtés mennyiségét kWh-ban, a fűtés alapdíját pénznem/kWh-ban, fűtés összdíjat az adott pénznemben, melegvíz fogyasztást köbméterben, melegvíz alapdíját köbméter/pénznemben, melegvíz összdíját, hidegvíz fogyasztást köbméterben, hidegvíz alapdíját köbméter/pénznemben, hidegvíz összdíját, a megadott pénznemet és a végösszeget.
 
 #### Lakó fogyasztási adatainak és számláinak megtekintése
 
 #### Lakó számlájának letöltése
+A kiállított számlákat szabadon letölthetjük PDF formátumban. 
 
 ### Alkalmazás használata lakók számára
 #### Regisztráció
@@ -98,14 +102,26 @@ Az alkalmazásba való belépéshez navigáljunk a Login (Bejelentkezés) alolda
 
 > Login screenshot
 
+#### Kijelentkezés
+Az alkalmazás jobb felső sarkában található menü ikonra kattintva a felugró menüben láthatjuk az aktuálisan bejelentkezett felhasználó nevét és email címét. A Sign Out gombra kattintva kijelentkezhetünk az alkalmazásból.
+
+> Logout screenshot
+
 # Fejlesztői dokumentáció
 
 ## Specifikáció
 ## Elemzés
 ## Tervezés
 
-## Fejlesztői környezet
+## Fejlesztőkörnyezet
+### Rendszerkövetelmények
 ### A fejlesztőkörnyezet kialakítása
+
+## Development Workflow
+### Buildelés
+### Deploy
+
+## Continuous delivery
 
 ## Szerver oldali architektúra
 ### API
