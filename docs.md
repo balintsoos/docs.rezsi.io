@@ -82,15 +82,16 @@ A már létező csoportok nevét átírhatjuk, vagy akár törölhetjük az egé
 A csoportba felvett lakókat egyesével törölhetjük. A törölt lakók többé már nem lesznek képesek bejelentkenzni az alkalmazásba. Újrafelvételükhöz újra regisztrálni kell.
 
 #### Csoportos számla kiállítása
-A csoport összes tagja számára egyszerre tudunk kiállítani számlát. Ehhez meg kell adnunk a számlázási időszak kezdetének dátumát, a számlázási időszak végének dátumát, a pénznemet, a fűtés egységárát pénznem/kWh-ban, a melegvíz egységárát köbméter/pénznemben, és a hidegvíz egységárát köbméter/pénznemben.
+A csoport összes tagja számára egyszerre tudunk kiállítani számlát. A csoport számláinak listájánál kattintsunk A Create bill gombra. A felugró párbeszédablakban meg kell adnunk a számlázási időszak kezdetének dátumát, a számlázási időszak végének dátumát, a pénznemet, a fűtés egységárát pénznem/kWh-ban, a melegvíz egységárát köbméter/pénznemben, és a hidegvíz egységárát köbméter/pénznemben. A számlá készítéséről minden érintett felhasználó értesítést kap.
 
 #### Csoportos számla adatainak letöltése
 A kiállított csoportos számla adatait letölthetjük CSV formátumban. Ehhez a csoport számláinak listájában a számla alatti Download as CSV gombra kell kattintani. A fájl egy sora tartalmazza a csoporthoz tartozó lakó nevét, email címét, az adott időszakban felhasznált fűtés mennyiségét kWh-ban, a fűtés egységárát pénznem/kWh-ban, fűtés összdíját az adott pénznemben, melegvíz fogyasztást köbméterben, melegvíz egységárát köbméter/pénznemben, melegvíz összdíját, hidegvíz fogyasztást köbméterben, hidegvíz egységárát köbméter/pénznemben, hidegvíz összdíját, a megadott pénznemet és a végösszeget.
 
 #### Lakó fogyasztási adatainak és számláinak megtekintése
+A csoport lakóinak listájánál ha rákkatintunk egy adott lakóra, akkor megtekinthetjük az adott lakó összes fogyasztási bejelentését és az összes kiállított számláját. A bejelentések tartalmazzák a bejelentés napjának dátumát, és a fogyasztásmérők állását: a hőmennyiséget kWh-ban és a meleg-, illetve hidegvíz mennyiségét köbméterben. A számlák tartalmazzák a kiállítás dátumát, a számlázási időszak kezdetének és végének dátumát, illetve egy táblázatban lebontva a fogyasztások díjait a végösszeggel együtt.
 
 #### Lakó számlájának letöltése
-A kiállított számlákat szabadon letölthetjük PDF formátumban. 
+A lakó kiállított számláit szabadon letölthetjük egyesével PDF formátumban. Ehhez kattintsunk az adott számla alatt található Download as PDF gombra. A letöltött fájl tartalmazza a számla azonosítószámát, kiállításának dátumát, a számlázási időszak kezdetének és végének dátumát, illetve egy táblázatban lebontva a fogyasztások díjait a végösszeggel együtt.
 
 ### Alkalmazás használata lakók számára
 #### Regisztráció
