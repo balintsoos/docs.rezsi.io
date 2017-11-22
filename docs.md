@@ -52,6 +52,11 @@ Az alkalmazásba való belépéshez navigáljunk a Login (Bejelentkezés) alolda
 
 > Login screenshot
 
+#### Kijelentkezés
+Az alkalmazás jobb felső sarkában található menü ikonra kattintva a felugró menüben láthatjuk az aktuálisan bejelentkezett felhasználó nevét és email címét. A Sign Out gombra kattintva kijelentkezhetünk az alkalmazásból.
+
+> Logout screenshot
+
 #### Új csoport létrehozása
 Jövőbeli felhasználóinkat (lakóinkat) saját preferenciáink szerint csoportokba oszthatjuk. A csoportosítás módja a közös képviselőre van bízva, ez lehet például épület, lépcsőház, vagy akár szint alapján. Egy felhasználó csak egy darab csoport tagja lehet. Új csoport létrehozásához a csoport nevét kell megadni.
 
@@ -67,6 +72,20 @@ A már létező csoportok nevét átírhatjuk, vagy akár törölhetjük az egé
 > Edit group screenshot
 
 > Delete group screenshot
+
+#### Lakók meghívása a csoportba
+Új lakók meghívásához kattintsunk az adott csoport lakóinak listájánál az Invite gombra. A megjelenő párbeszédablakban található linken keresztül tudnak regisztrálni a lakók a csoportunkba. Ez a link teljesen publikus, így fokozottan figyeljünk oda, hogy kinek küldjük el.
+
+#### Lakó törlése
+A csoportba felvett lakókat egyesével törölhetjük. A törölt lakók többé már nem lesznek képesek bejelentkenzni az alkalmazásba. Újrafelvételükhöz újra regisztrálni kell.
+
+#### Csoportos számla kiállítása
+
+#### Csoportos számla adatainak letöltése
+
+#### Lakó fogyasztási adatainak és számláinak megtekintése
+
+#### Lakó számlájának letöltése
 
 ### Alkalmazás használata lakók számára
 #### Regisztráció
