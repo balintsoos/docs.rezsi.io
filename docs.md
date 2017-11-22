@@ -109,6 +109,13 @@ Az alkalmazás jobb felső sarkában található menü ikonra kattintva a felugr
 
 > Logout screenshot
 
+#### Új bejelentés készítése
+
+#### Értesítés számla kiállításáról
+
+#### Számla letöltése
+A kiállított számlákat szabadon letölthetjük PDF formátumban a számla alatt található Download as PDF gombra kattintva. A letöltött fájl tartalmazza a számla azonosítószámát, kiállításának dátumát, a számlázási időszak kezdetének és végének dátumát, illetve egy táblázatban lebontva a fogyasztások díjait a végösszeggel együtt.
+
 # Fejlesztői dokumentáció
 
 ## Specifikáció
