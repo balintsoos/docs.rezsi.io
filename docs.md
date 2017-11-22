@@ -36,8 +36,8 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 Az alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre, internet hozzáférésre és email címre. Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra is.
 
 ### Támogatott böngészők:
-- Google Chrome (v62.x)
-- Google Chrome for Android (v62.x)
+- Google Chrome (v62.x és későbbi verziók)
+- Google Chrome for Android (v62.x és későbbi verziók)
 
 ## Alkalmazás használata
 
