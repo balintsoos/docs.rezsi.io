@@ -110,8 +110,10 @@ Az alkalmazás jobb felső sarkában található menü ikonra kattintva a felugr
 > Logout screenshot
 
 #### Új bejelentés készítése
+Új bejelentés készítéséhez kattintsunk a bejelentések listájánál a Create report gombra. A felugró párbeszédablakban adjuk meg a hőmennyiségmérő állását kWh-ban és a meleg-, illetve hidegvíz mérőórájának állását köbméterben.
 
 #### Értesítés számla kiállításáról
+Minden új számla kiállításáról a felhasználó emailben és alkalmazáson belül is értesítést kap. Az alkalmazás jobb felső sarkában található harang inkonra kattintva megtekinthetjük új értesítéseinket, amelyeknek számát a harang mellett található buborékban is jelezzük. A számla adatainak megtekintéséhez kattinsunk az értesítésre.
 
 #### Számla letöltése
 A kiállított számlákat szabadon letölthetjük PDF formátumban a számla alatt található Download as PDF gombra kattintva. A letöltött fájl tartalmazza a számla azonosítószámát, kiállításának dátumát, a számlázási időszak kezdetének és végének dátumát, illetve egy táblázatban lebontva a fogyasztások díjait a végösszeggel együtt.
