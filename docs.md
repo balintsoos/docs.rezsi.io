@@ -133,6 +133,47 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 ## CD melléklet tartalma
 A melléklet két mappát tartalmaz. Az `api.rezsi.io` nevű mappában a resource szerver forráskódját, az `app.rezsi.io` mappában a static szerver és a kliens alkalmazás forráskódját találjuk.
 
+```
+api.rezsi.io
+├── src
+|   ├── config
+|   ├── controllers
+|   ├── models
+|   ├── routes
+|   ├── utils
+|   └── index.js
+├── .env.example
+├── .editorconfig
+├── .eslintignore
+├── .eslintrc
+├── package.json
+└── yarn.lock
+```
+
+```
+app.rezsi.io
+├── app
+|   ├── components
+|   ├── containers
+|   ├── images
+|   ├── tests
+|   ├── translations
+|   ├── utils
+|   ├── app.js
+|   ├── configureStore.js
+|   ├── global-styles.js
+|   ├── i18n.js
+|   ├── index.html
+|   ├── manifest.json
+|   └── reducers.js
+├── internals
+├── server
+├── .editorconfig
+├── package.json
+├── Procfile
+└── yarn.lock
+```
+
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
 - macOS (Sierra v10.12.6 és újabb verziók)
