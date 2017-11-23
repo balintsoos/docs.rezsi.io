@@ -173,6 +173,7 @@ app.rezsi.io
 ├── Procfile
 └── yarn.lock
 ```
+A mappák további konfigurációs fájlokat is tartalmazhatnak, de ezek a dokumentáció szempontjából nem lényegesek.
 
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
