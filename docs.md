@@ -200,6 +200,10 @@ Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a Java
 ```Shell
 $ cd api.rezsi.io
 $ yarn install
+$ yarn start
+```
+A szervert fejlesztői módban is indíthatjuk, ekkor minden fájlmódosításkor a szerver újraindul.
+```Shell
 $ yarn start-dev
 ```
 
