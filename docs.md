@@ -183,16 +183,20 @@ A mappák további konfigurációs fájlokat is tartalmazhatnak, de ezek a dokum
 - NPM (v5.3.0 és újabb verziók)
 - Yarn.pkg (v1.0.1 és újabb verziók)
 
-A fejlesztés természetesen történhet más operációs rendszeren is, de a követelményekben feltüntetett eszközök elérhetőségét és kompatibilitásátaz az adott rendszeren előzetesen meg kell vizsgálni.
+A fejlesztés természetesen történhet más operációs rendszeren is, de a követelményekben feltüntetett eszközök elérhetőségét és kompatibilitását az adott rendszeren előzetesen meg kell vizsgálni.
 
 ### A fejlesztőkörnyezet kialakítása
+Másoljuk a CD melléklet tartalmát a számítógépre.
 
 #### MongoDB szerver elindítása
+Készítsünk egy új mappát, ahol az adatbázis fájlokat fogjuk tárolni, majd indítsuk el a MongoDB szervert.
 ```Shell
+$ mkdir rezsi.io
 $ mongod --dbpath rezsi.io
 ```
 
 #### Resource szerver (API) elindítása
+Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
 ```Shell
 $ cd api.rezsi.io
 $ yarn install
@@ -200,6 +204,7 @@ $ yarn start-dev
 ```
 
 #### Static szerver elindítása
+Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
 ```Shell
 $ cd app.rezsi.io
 $ yarn install
