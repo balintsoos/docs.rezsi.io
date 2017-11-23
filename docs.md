@@ -197,17 +197,17 @@ $ mongod --dbpath rezsi.io
 #### Resource szerver konfigurálása
 A szervert környezetváltozókkal konfigurálhatjuk. A legegyszerűbb módja ennek ha létrehozunk egy `.env` fájlt, amelyben kulcs-érték párokban felsoroljuk a változókat.
 
-- NODE_ENV=development
-- PORT=4040
-- JWT_SECRET=your-jwt-secret
-- MONGO_HOST=mongodb://localhost/rezsi-io
-- MONGO_PORT=27017
-- GMAIL_USER=your-gmail-address
-- GMAIL_PASS=your-gmail-password
-- GMAIL_ADDRESS=your-gmail-address
-- DEBUG=API:*
+- NODE_ENV: beállíthatjuk, hogy a szerver éles vagy fejlesztői módban induljon el
+- PORT: szerver portja
+- JWT_SECRET: JWT token generálásához szükséges titkosítási kulcs
+- MONGO_HOST: MongoDB szerver kapcsolódási URI-ja
+- MONGO_PORT: MongoDB szerver kapcsolódási portja
+- GMAIL_USER: GMail SMTP felhasználó neve
+- GMAIL_PASS: GMail SMTP felhasználó jelszava
+- GMAIL_ADDRESS: GMail SMTP-n keresztül küldött emailek feladója
+- DEBUG: debug.js csomag konfigurációs stringje
 
-A forrásfájlok között találhatunk egy `.env.example` névvel ellátott példafájlt, amely tartalmazza az alapvető konfigurációkat. Ezt elég csak átnevezni és kiegészíteni az authorizációs változók értékeivel.
+A forrásfájlok között találhatunk egy `.env.example` névvel ellátott példafájlt, amely tartalmazza az alapvető konfigurációt. Ezt elég csak átnevezni és átírni az értékeket.
 ```Shell
 $ cp .env.example .env
 ```
