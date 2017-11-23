@@ -195,7 +195,7 @@ $ mkdir rezsi.io
 $ mongod --dbpath rezsi.io
 ```
 #### Resource szerver konfigurálása
-A szervert környezetváltozókkal konfigurálhatjuk. A legegyszerűbb módja ennek ha létrehozunk egy `.env` fájlt, amelyben kulcs-érték párokban felsoroljuk a változókat.
+A szervert környezetváltozókkal konfigurálhatjuk. A legegyszerűbb módja ennek ha létrehozunk egy `.env` fájlt az `api.rezsi.io` mappa gyökerében, amelyben kulcs-érték párokban felsoroljuk a változókat.
 
 - NODE_ENV: beállíthatjuk, hogy a szerver éles vagy fejlesztői módban induljon el
 - PORT: szerver portja
@@ -220,7 +220,7 @@ $ cd api.rezsi.io
 $ yarn install
 $ yarn start
 ```
-A szervert fejlesztői módban is indíthatjuk, ekkor minden fájlmódosításkor a szerver újraindul.
+A szervert watch üzemmódban is indíthatjuk, ekkor minden fájlmódosításkor a szerver újraindul.
 ```Shell
 $ yarn start-dev
 ```
