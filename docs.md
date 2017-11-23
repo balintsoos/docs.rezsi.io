@@ -126,7 +126,32 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
+- macOS Sierra (v10.12 és későbbi verziók)
+- MongoDB
+- Node.js
+- NPM
+- Yarn.pkg
+
 ### A fejlesztőkörnyezet kialakítása
+
+#### MongoDB server elindítása
+```Shell
+$ mongod --dbpath rezsi.io
+```
+
+#### Resource szerver (API) elindítása
+```Shell
+$ cd api.rezsi.io
+$ yarn install
+$ yarn start-dev
+```
+
+#### Static szerver elindítása
+```Shell
+$ cd app.rezsi.io
+$ yarn install
+$ yarn start
+```
 
 ## Development Workflow
 ### Buildelés
