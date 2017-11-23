@@ -126,11 +126,11 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
-- macOS Sierra (v10.12 és későbbi verziók)
-- MongoDB
-- Node.js
-- NPM
-- Yarn.pkg
+- macOS (Sierra v10.12.6 és újabb verziók)
+- MongoDB (v3.4.2)
+- Node.js (v8.4.0 és újabb verziók)
+- NPM (v5.3.0 és újabb verziók)
+- Yarn.pkg (v1.0.1 és újabb verziók)
 
 ### A fejlesztőkörnyezet kialakítása
 
