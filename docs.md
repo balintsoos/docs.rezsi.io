@@ -130,6 +130,9 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 ## Tervezés
 ### Technológiák kiválasztása
 
+## CD melléklet tartalma
+A melléklet két mappát tartalmaz. Az `api.rezsi.io` nevű mappában a resource szerver forráskódját, az `app.rezsi.io` mappában a static szerver és a kliens alkalmazás forráskódját találjuk.
+
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
 - macOS (Sierra v10.12.6 és újabb verziók)
@@ -137,6 +140,8 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 - Node.js (v8.4.0 és újabb verziók)
 - NPM (v5.3.0 és újabb verziók)
 - Yarn.pkg (v1.0.1 és újabb verziók)
+
+A fejlesztés természetesen történhet más operációs rendszeren is, de a követelményekben feltüntetett eszközök elérhetőségét és kompatibilitásátaz az adott rendszeren előzetesen meg kell vizsgálni.
 
 ### A fejlesztőkörnyezet kialakítása
 
