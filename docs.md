@@ -194,8 +194,26 @@ Készítsünk egy új mappát, ahol az adatbázis fájlokat fogjuk tárolni, maj
 $ mkdir rezsi.io
 $ mongod --dbpath rezsi.io
 ```
+#### Resource szerver konfigurálása
+A szervert környezetváltozókkal konfigurálhatjuk. A legegyszerűbb módja ennek ha létrehozunk egy `.env` fájlt, amelyben kulcs-érték párokban felsoroljuk a változókat.
 
-#### Resource szerver (API) elindítása
+- NODE_ENV=development
+- PORT=4040
+- JWT_SECRET=your-jwt-secret
+- MONGO_HOST=mongodb://localhost/rezsi-io
+- MONGO_PORT=27017
+- GMAIL_USER=your-gmail-address
+- GMAIL_PASS=your-gmail-password
+- GMAIL_ADDRESS=your-gmail-address
+- DEBUG=API:*
+
+A forrásfájlok között találhatunk egy `.env.example` névvel ellátott példafájlt, amely tartalmazza az alapvető konfigurációkat. Ezt elég csak átnevezni és kiegészíteni az authorizációs változók értékeivel.
+```Shell
+$ cp .env.example .env
+```
+Fokozottan figyeljünk arra, hogy ez a fájl jelszókat és titkosítási kulcsokat tartalmaz, ezért semmilyen körülmények között sem juthat illetéktelen kezekbe. Ha ez mégis megtörténik, azonnal cseréljünk jelszót és változtassuk meg a kulcsokat.
+
+#### Resource szerver elindítása
 Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
 ```Shell
 $ cd api.rezsi.io
