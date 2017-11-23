@@ -33,13 +33,15 @@ Az alkalmazásnak két fő felhasználási igényt kell kielégíteni. A lakók 
 # Felhasználói dokumentáció
 
 ## Követelmények
-Az alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre, internet hozzáférésre és email címre. Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra is.
+A webes alkalmazás használatához szükség van egy JavaScript futtatására alkalmas webböngészőre, internet hozzáférésre és email címre. Az alkalmazás csak angol nyelven érhető el, így szükség van minimális angol nyelvtudásra is.
 
 ### Támogatott böngészők:
 - Google Chrome (v62.x és későbbi verziók)
 - Google Chrome for Android (v62.x és későbbi verziók)
 
 ## Alkalmazás használata
+
+Az alkalmazás elérhető a következő címen: https://app-rezsi.herokuapp.com/
 
 ### Alkalmazás használata közös képviselők számára
 #### Regisztráció
@@ -121,8 +123,12 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 # Fejlesztői dokumentáció
 
 ## Specifikáció
+
 ## Elemzés
+### Felhasználói esetek
+
 ## Tervezés
+### Technológiák kiválasztása
 
 ## Fejlesztőkörnyezet
 ### Rendszerkövetelmények
@@ -134,7 +140,7 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 
 ### A fejlesztőkörnyezet kialakítása
 
-#### MongoDB server elindítása
+#### MongoDB szerver elindítása
 ```Shell
 $ mongod --dbpath rezsi.io
 ```
