@@ -281,3 +281,4 @@ Mivel nem commitolhatjuk be a verziókövető rendszerbe a szenzitív adatokat t
 ## Tesztelés
 
 ## Fejlesztési lehetőségek
+- Többnyelvűség támogatása: az alkalmazás felépítése során kezdettől fogva szem előtt tartottam a többnyelvűség támogatását így csak a feliratok lefordítása és egy nyelvválasztó felület hiányzik
