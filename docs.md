@@ -122,9 +122,15 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 
 # Fejlesztői dokumentáció
 
-## Specifikáció
+## Feladat elemzése
+Az alkalmazás tervezését érdemes az alapprobléma megfogalmazásával kezdeni. A papír alapú folyamat túl lassú, és túl sok hibatényező áll fenn. Mi történik, ha valaki hiányosan tölti ki a papírt, vagy ha a közös képviselő hibásan viszi fel az adatokat. Ezeket mind ki tudnánk küszöbölni egy programmal. A mostani folyamat túl lassú, több nap, akár egy hét is eltelhet mire az adatokat feldolgozzák, és újabb több nap, amíg mindenkihez eljut a kiállított számla. Ez egy száz lakásból álló társasház esetén logisztikailag is megterhelő folyamat, és a közös képviselőnek akár több ilyen társasház ügyeit is intéznie kell párhuzamosan. Egy program esetén ez az egész folyamat automatizálható, és a lakókhoz a kiállítás után pillanatok alatt megérkezhet a számla. 
 
-## Elemzés
+A feladatból fakadóan a program tervezésekor két célcsoport igényeit is figyelembe kell venni. A közös képviselőknek tudnia kell kezelni a felhasználókat. Felvenni új felhasználót, törölni, rendszerezni. Hozzá kell férnie a felhasználók bejelentett óraállásaihoz, hogy ezek alapján számlát tudjon kiállítani. Ezt a folyamatot minél egyszerűbbé és gyorsabbá kell tenni. Ne egyesével kelljen új számlákat kiállítani, hanem valamilyen automatizmus segítségével az összes felhasználónak egyidőben. Lehetőséget kell adni az adatok exportálására, hogy a közös képviselő könnyeben hozzá tudjon férni a jövőben is.
+
+A társasház lakóinak egy könnyen átlátható felület kell, ahol hibamentesen kell tudni megadni az óraállásokat és azonnal értesíteni kell az új számlák kiállításáról.
+
+Ezeket az igényeket remekül lefedheti egy webes alkalmazás. A lakók kényelme érdekében az oldalt mobil nézettel is el kell látni, mivel a mérőórák mellett állva így egyből beírhatják az adatokat a mobilkészülékükön keresztül. 
+
 ### Felhasználói esetek
 
 ## Tervezés
