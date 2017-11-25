@@ -238,7 +238,7 @@ $ yarn start
 A fejlesztéshez a Git verziókövető rendszert használtam. A resource szervert és a kliens alkalmazást (a static szerverrel együtt) külön repository-ban helyeztem el, mivel ezek a projektek akár párhuzamosan is fejleszthetők és csak egy közös interfészre van szükség a kommunikációjukhoz. A repositoryk elérhetőek a GitHub felületén is.
 
 ### Continuous delivery
-Az alkalmazást a Heroku felhő platformon futtatjuk. Ez a szolgáltatás a legtöbb üzemeltetéssel kapcsolatos terhet leveszi a fejlesztő válláról. A rendszer összeköthető a GitHub repository-val, így a master branch változáskor automatikusan kirakja az új verziót az éles környezetbe.
+Az alkalmazást a Heroku felhő platformon futtatjuk. Ez a szolgáltatás a legtöbb üzemeltetéssel kapcsolatos terhet leveszi a fejlesztő válláról. A rendszer összeköthető a GitHub repositoryval, így a master branch változáskor automatikusan kirakja az új verziót az éles környezetbe.
 
 ## Szerver oldali architektúra
 ### API
