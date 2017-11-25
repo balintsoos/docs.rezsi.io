@@ -240,6 +240,8 @@ A fejlesztéshez a Git verziókövető rendszert használtam. A resource szerver
 ### Continuous delivery
 Az alkalmazást a Heroku felhő platformon futtatjuk. Ez a szolgáltatás a legtöbb üzemeltetéssel kapcsolatos terhet leveszi a fejlesztő válláról. A rendszer összeköthető a GitHub repositoryval, így a master branch változáskor automatikusan kirakja az új verziót az éles környezetbe.
 
+Mivel nem commitolhatjuk be a verziókövető rendszerbe a szenzitív adatokat tartalmazó `.env` fájlt, ezért a környezetváltozókat a Heroku erre a célra kialakított felületén kell megadni.
+
 ## Szerver oldali architektúra
 ### API
 #### Végpontok
