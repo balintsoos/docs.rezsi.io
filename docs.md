@@ -130,7 +130,7 @@ A kiállított számlákat szabadon letölthetjük PDF formátumban a számla al
 ## Tervezés
 ### Technológiák kiválasztása
 
-## CD melléklet tartalma
+## DVD melléklet tartalma
 A melléklet két mappát tartalmaz. Az `api.rezsi.io` nevű mappában a resource szerver forráskódját, az `app.rezsi.io` mappában a static szerver és a kliens alkalmazás forráskódját találjuk.
 
 ```
@@ -186,7 +186,7 @@ A mappák további konfigurációs fájlokat is tartalmazhatnak, de ezek a dokum
 A fejlesztés természetesen történhet más operációs rendszeren is, de a követelményekben feltüntetett eszközök elérhetőségét és kompatibilitását az adott rendszeren előzetesen meg kell vizsgálni.
 
 ### A fejlesztőkörnyezet kialakítása
-Másoljuk a CD melléklet tartalmát a számítógépre.
+Másoljuk a DVD melléklet tartalmát a számítógépre.
 
 #### MongoDB szerver elindítása
 Készítsünk egy új mappát, ahol az adatbázis fájlokat fogjuk tárolni, majd indítsuk el a MongoDB szervert.
@@ -214,7 +214,7 @@ $ cp .env.example .env
 Fokozottan figyeljünk arra, hogy ez a fájl jelszókat és titkosítási kulcsokat tartalmaz, ezért semmilyen körülmények között sem juthat illetéktelen kezekbe. Ha ez mégis megtörténik, azonnal cseréljünk jelszót és változtassuk meg a kulcsokat.
 
 #### Resource szerver elindítása
-Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
+Navigáljunk a DVD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
 ```Shell
 $ cd api.rezsi.io
 $ yarn install
@@ -226,7 +226,7 @@ $ yarn start-dev
 ```
 
 #### Static szerver elindítása
-Navigáljunk a CD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
+Navigáljunk a DVD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
 ```Shell
 $ cd app.rezsi.io
 $ yarn install
