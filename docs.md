@@ -211,7 +211,7 @@ A forrásfájlok között találhatunk egy `.env.example` névvel ellátott pél
 ```Shell
 $ cp .env.example .env
 ```
-Fokozottan figyeljünk arra, hogy ez a fájl jelszókat és titkosítási kulcsokat tartalmaz, ezért semmilyen körülmények között sem juthat illetéktelen kezekbe. Ha ez mégis megtörténik, azonnal cseréljünk jelszót és változtassuk meg a kulcsokat. Ezt a fájlt ne commitoljuk a Git verziókövető rendszerbe.
+Fokozottan figyeljünk arra, hogy ez a fájl jelszókat és titkosítási kulcsokat tartalmaz, ezért semmilyen körülmények között sem juthat illetéktelen kezekbe. Ha ez mégis megtörténik, azonnal cseréljünk jelszót és változtassuk meg a kulcsokat. Ezt a fájlt ne commitoljuk a verziókövető rendszerbe.
 
 #### Resource szerver elindítása
 Navigáljunk a DVD mellékletről származó forrásmappába, telepítsük a JavaScript dependenciákat és indítsuk el a szervert.
