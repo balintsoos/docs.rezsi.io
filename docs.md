@@ -279,3 +279,5 @@ Mivel nem commitolhatjuk be a verziókövető rendszerbe a szenzitív adatokat t
 ### Kommunikáció
 
 ## Tesztelés
+
+## Fejlesztési lehetőségek
