@@ -130,7 +130,37 @@ Ezeket az igényeket remekül lefedheti egy webes alkalmazás. A lakók kényelm
 ### Felhasználói esetek
 
 ## Tervezés
-### Technológiák kiválasztása
+Az alkalmazás architektúrája 3 komponensből épül fel. A resource szerver egy REST (representational state transfer) alapokra épített API (Application Programming Interface), ami az adatbázishoz kapcsolódva a rendszer backend felületét nyújtja. A kliens alkalmazás egy Single Page Application, ami AJAX hívásokkal fog kapcsolódni a resource szerverhez. A kliens programot egy static szerver fogja kiszolgálni.
+
+## Szerver oldali architektúra
+### API
+#### Végpontok
+#### Felhasznált technológiák
+##### Node.js
+##### Express
+
+### Adatbázis
+#### Felhasznált technológiák
+##### MongoDB
+##### Mongoose
+
+### Authentikáció
+#### Felhasznált technológiák
+##### Passport.js
+##### JWT
+
+### Értesítési rendszer
+#### Felhasznált technológiák
+##### WebSocket
+
+## Kliens oldali architektúra
+
+### Felhasznált technológiák
+#### React
+#### Redux
+
+### Komponens hierarchia
+### Kommunikáció
 
 ## DVD melléklet tartalma
 A melléklet két mappát tartalmaz. Az `api.rezsi.io` nevű mappában a resource szerver forráskódját, az `app.rezsi.io` mappában a static szerver és a kliens alkalmazás forráskódját találjuk.
@@ -244,37 +274,7 @@ Az alkalmazást a Heroku felhő platformon futtatjuk. Ez a szolgáltatás a legt
 
 Mivel nem commitolhatjuk be a verziókövető rendszerbe a szenzitív adatokat tartalmazó `.env` fájlt, ezért a környezetváltozókat a Heroku erre a célra kialakított felületén kell megadni.
 
-## Szerver oldali architektúra
-### API
-#### Végpontok
-#### Felhasznált technológiák
-##### Node.js
-##### Express
-
-### Adatbázis
-#### Felhasznált technológiák
-##### MongoDB
-##### Mongoose
-
-### Authentikáció
-#### Felhasznált technológiák
-##### Passport.js
-##### JWT
-
-### Értesítési rendszer
-#### Felhasznált technológiák
-##### WebSocket
-
-## Kliens oldali architektúra
-
-### Felhasznált technológiák
-#### React
-#### Redux
-
-### Komponens hierarchia
-### Kommunikáció
-
-## Tesztelés
+### Tesztelés
 
 ## Fejlesztési lehetőségek
 - Többnyelvűség támogatása: az alkalmazás felépítése során kezdettől fogva szem előtt tartottam a többnyelvűség támogatását így csak a feliratok lefordítása és egy nyelvválasztó felület hiányzik
