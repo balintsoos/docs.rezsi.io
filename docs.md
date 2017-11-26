@@ -294,4 +294,6 @@ Mivel nem commitolhatjuk be a verziókövető rendszerbe a szenzitív adatokat t
 ### Tesztelés
 
 ## Fejlesztési lehetőségek
-- Többnyelvűség támogatása: az alkalmazás felépítése során kezdettől fogva szem előtt tartottam a többnyelvűség támogatását így csak a feliratok lefordítása és egy nyelvválasztó felület hiányzik
+- Többnyelvűség támogatása: Az alkalmazás felépítése során kezdettől fogva szem előtt tartottam a többnyelvűség támogatását így csak a feliratok lefordítása és egy nyelvválasztó felület hiányzik.
+
+- Értesítési rendszer kiszervezése külön web szolgáltatásba: A rendszert saját adatbázzissal kell ellátni, ami tárolja az értesítéseket. A resource szerver HTTP kéréseken keresztül kommunikál az értesítési szolgáltatással.
