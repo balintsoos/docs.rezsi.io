@@ -133,11 +133,28 @@ Ezeket az igényeket remekül lefedheti egy webes alkalmazás. A lakók kényelm
 Az alkalmazás architektúrája 3 komponensből épül fel. A resource szerver egy REST (representational state transfer) alapokra épített API (Application Programming Interface), ami az adatbázishoz kapcsolódva a rendszer backend felületét nyújtja. A kliens alkalmazás egy Single Page Application, ami AJAX hívásokkal fog kapcsolódni a resource szerverhez. A kliens programot egy static szerver fogja kiszolgálni.
 
 ## Szerver oldali architektúra
-### API
-#### Végpontok
+### RESTful API
+A REST, azaz Representational State Transfer egy internetes architektúra típus, amelyben a hálózatot szerverek és kliensek alkotják. A kliensek kéréseket indítanak a szerver felé, amelyre a szerver valamilyen webes erőforrással (HTML, XML, JSON) válaszol. A REST architektúra hat megkötést fogalmaz meg, ami biztosítja az alkalmazások teljesítményét, skálázhatóságát és megbízhatóságát. Ezek a megkötések a következők:
+
+1. Kliens-szerver architektúra: A kliensek és szerverek feladatköreit el kell különíteni. Például a szerverek nem foglalkozhatnak felhasználói felülettel, vagy a kliens állapotával, és a kliensek nem foglalkozhatnak adattárolással. Ez az elv biztosítja a kliens hordozhatóságát és szerver skálázhatóságát. A fejlesztést teljesen szétválaszthatjuk, amíg az interfész nem változik.
+
+2. Állapotmentesség: A kommunikáció további megkötése, hogy a szerver nem tárolhatja a kliens állapotát kérések között. Minden kérésnek tartalmaznia kell elégséges információt, hogy a szerver képes legyen azt végrehajtani és a session állapotot a kliensnek kell megőrizni. Ez kifejezetten érdekes elmélet authentikációs szempontból.
+
+3. Gyorsítárazhatóság: A kliensek gyorsítótárazhatnak bizonyos válaszokat. A válaszoknak tartalmazniuk kell, hogy tárazhatóak-e, vagy sem. Egy jól felépített tárazási stratégia megnövelheti a szerver skálázhatóságát.
+
+4. Rétegelt felépítés: A kliensek nem képesek megmondani, hogy direkt kapcsolódott a szerverhez, vagy közvetítő szervereken keresztül, így terheléselosztó szerverek (load balancers) közbeiktatásával növelhetjük a skálázhatóságot.
+
+5. Code on Demand (igényelhető kód): A szerverek ideiglenes kibővíthetik a kliens funkcionalítását futtatható programrészek elküldésével. Ezt a módszert alkalmazták a Java applet-ek, vagy a kliensoldali JavaScript szkriptek.
+
+6. Egységes interfész: Egyszerűsíti és szétválasztja az architektúrát, ami megkönnyíti a kliensek és szerverek független fejlesztését.
+
+A REST elveit követő webes szolgáltatásokat röviden RESTful Web Services-nek nevezzük. A kérések típusai a HTTP szabány metódusainak felelnek meg, azaz GET, POST, PUT, PATCH, DELETE, stb. A legelterjedtebb interfész a RESTful szolgáltatásoknál a JSON (JavaScript Object Notation).
+
 #### Felhasznált technológiák
 ##### Node.js
 ##### Express
+
+#### Végpontok
 
 ### Adatbázis
 #### Felhasznált technológiák
