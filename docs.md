@@ -152,9 +152,9 @@ A REST elveit követő webes szolgáltatásokat röviden RESTful Web Services-ne
 
 #### Felhasznált technológiák
 ##### Node.js
-A Node.js egy nyílt forráskódú, platformfüggetlen JavaScript futtatókörnyezet. A JavaScript-et történelmileg a böngészők elsődleges nyelvének fejlesztették ki, de a webes szolgáltatások elterjedésével ma már az egyik legnépszerűbb programozási nyelvvé nőtte ki magát. Megjelent az igény a JavaScript szerver oldali felhasználására is, és a Node.js elterjedésével létrejött a "JavaScript everywhere" paradigma. A projekt felügyelésére létrehozták a Node.js Foundation-t, melynek tagjai között ott találjuk a Google, Microsoft, IBM, SAP, Intel, Redhat és a PayPal delegáltjait is.
+A Node.js egy nyílt forráskódú, platformfüggetlen JavaScript futtatókörnyezet. A JavaScript-et történetileg a böngészők elsődleges nyelvének fejlesztették ki, de a webes szolgáltatások elterjedésével ma már az egyik legnépszerűbb programozási nyelvvé nőtte ki magát. A Node.js a Chrome böngésző JavaScript futtatómotorjára, a V8-ra épül, amely interpretálás helyett natív gépi kódra fordítja le a JavaScript forráskódot. Funkcionalításának kiterjesztésére alkották meg az NPM (Node Package Manager) csomagkezelőt, amely több mint 350 ezer csomaggal a világ legnagyobb csomagkezelőjének számít. A Node.js fejlesztésének felügyelésére és piaci adoptálásának felgyorsítására létrehozták a Node.js Foundation-t, melynek tagjai között ott találjuk a Google, Microsoft, IBM, SAP, Intel, Redhat és a PayPal delegáltjait is.
 
-##### Express
+##### Express.js
 
 #### Végpontok
 
