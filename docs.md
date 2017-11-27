@@ -158,6 +158,52 @@ A Node.js egy nyílt forráskódú, platformfüggetlen JavaScript futtatókörny
 Az Express a Node.js beépített HTTP moduljára épülő, fejlesztőbarát API, amely remek absztrakciós réteget ad webszolgáltatások fejlesztéséhez.
 
 #### Végpontok
+A resource szerver elérhető a következő címen: https://api-rezsi.herokuapp.com/api/v1
+
+Szerver működésének lekérdezése
+- URL: `/health`
+- METHOD: `GET`
+- Sikeres válasz: 200 OK
+- Sikertelen válasz: A szerver elérhetetlen, valamilyen hibakóddal tér vissza.
+
+Authentikált felhasználó adatainak lekérdezése
+- URL: `/auth`
+- METHOD: `GET`
+- Sikeres válasz:
+```js
+{
+  displayName: ...
+  email: 
+}
+```
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Felhasználó bejelentkezése
+- URL: `/auth`
+- METHOD: `POST`
+- Sikeres válasz: 
+```js
+{
+  user: { displayName, ... },
+  token: 'refwr42434mnj4h1j4h1j4',
+}
+```
+- Sikertelen válasz: 
+
+Felhasználó regisztrációja
+- URL: `/users`
+- METHOD: `POST`
+- Sikeres válasz: 
+- Sikertelen válasz:
+
+Felhasználó visszaigazolása
+- URL: `/users/:id/confirm`
+- METHOD: `GET`
+- Sikeres válasz:
+- Sikertelen válasz:
+
+`/groups`
+
 
 ### Adatbázis
 #### Felhasznált technológiák
