@@ -202,8 +202,95 @@ Felhasználó visszaigazolása
 - Sikeres válasz:
 - Sikertelen válasz:
 
-`/groups`
+Authentikált felhasználó csoportjainak lekérdezése
+- URL: `/groups`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
 
+Új csoport létrehozása
+- URL: `/groups`
+- METHOD: `POST`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Egy csoport lekérdezése
+- URL: `/groups/:id`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Egy csoport adatainak módosítása
+- URL: `/groups/:id`
+- METHOD: `PATCH`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Egy csoport törlése
+- URL: `/groups/:id`
+- METHOD: `DELETE`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Csoport összesítéseinek lekérdezése:
+- URL: `/groups/:id/summaries`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Összesítés létrehozása:
+- URL: `/groups/:id/summaries`
+- METHOD: `POST`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Összesítés letöltése CSV formátumban:
+- URL: `/groups/:id/summaries/:summaryId/csv`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Csoport összes felhasználójának lekérdezése:
+- URL: `/groups/:id/users`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Csoport egy felhasználójának lekérdezése:
+- URL: `/groups/:id/users/:userId`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Csoport egy felhasználójának törlése:
+- URL: `/groups/:id/users/:userId`
+- METHOD: `DELETE`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Felhasználó óraállásainak lekérdezése:
+- URL: `/groups/:id/users/:userId/reports`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Óraállás bejelentése:
+- URL: `/groups/:id/users/:userId/reports`
+- METHOD: `POST`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Felhasználó számláinak lekérdezése:
+- URL: `/groups/:id/users/:userId/bills`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
+
+Felhasználó számláinak letöltése PDF formátumban:
+- URL: `/groups/:id/users/:userId/bills/pdf`
+- METHOD: `GET`
+- Sikeres válasz: 
+- Sikertelen válasz: 401 UNAUTHORIZED
 
 ### Adatbázis
 #### Felhasznált technológiák
