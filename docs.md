@@ -344,23 +344,22 @@ Notification:
 - user
 - bill
 
-### Authentikáció
-#### Felhasznált technológiák
-##### Passport.js
-##### JWT
-
-### Értesítési rendszer
-#### Felhasznált technológiák
-##### WebSocket
-
 ## Kliens oldali architektúra
-
 ### Felhasznált technológiák
 #### React
 #### Redux
 
 ### Komponens hierarchia
 ### Kommunikáció
+
+## Authentikáció
+### Felhasznált technológiák
+#### Passport.js
+#### JWT
+
+## Értesítési rendszer
+### Felhasznált technológiák
+#### WebSocket
 
 ## DVD melléklet tartalma
 A melléklet két mappát tartalmaz. Az `api.rezsi.io` nevű mappában a resource szerver forráskódját, az `app.rezsi.io` mappában a static szerver és a kliens alkalmazás forráskódját találjuk.
