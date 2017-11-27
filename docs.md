@@ -302,6 +302,48 @@ A Mongoose egy Node.js csomag, ami megkönnyíti a MongoDB Schema-k definiálás
 
 ### Modellek
 
+User:
+- email
+- password
+- displayName
+- role
+- group
+- confirmed
+- disabled
+
+Group:
+- name
+- leader
+- disabled
+
+Report:
+- hotWater
+- coldWater
+- heat
+- user
+
+Summary:
+- from
+- to
+- hotWaterPrice
+- coldWaterPrice
+- heatPrice
+- currency
+- group
+
+Bill:
+- hotWaterConsumption
+- coldWaterConsumption
+- heatConsumption
+- summary
+- user
+
+Notification:
+- type
+- seen
+- user
+- bill
+
 ### Authentikáció
 #### Felhasznált technológiák
 ##### Passport.js
