@@ -295,7 +295,7 @@ Felhasználó számláinak letöltése PDF formátumban:
 ### Adatbázis
 #### Felhasznált technológiák
 ##### MongoDB
-A MongoDB egy nyílt forráskódú, NoSQL, dokumentumorientált adatbázis. Az adatokat BSON (JSON fomrátumhoz hasonló) dokumentumokban tárolja. A dokuementumok szerkezeti felépítését Schema-k segítségével definiálhatjuk. Lekérdezésekben és aggregációs függvényekben natívan használhatunk JavaScript kifejezéseket, emiatt igazán elterjedt Node.js alapú rendszerekben.
+A MongoDB egy nyílt forráskódú, NoSQL, dokumentumorientált adatbázis. Az adatokat BSON (JSON-höz hasonló) formátumban tárolja. A dokuementumok szerkezeti felépítését Schema-k segítségével definiálhatjuk. Lekérdezésekben és aggregációs függvényekben natívan használhatunk JavaScript kifejezéseket, emiatt igazán elterjedt Node.js alapú rendszerekben.
 
 ##### Mongoose
 A Mongoose egy Node.js csomag, ami megkönnyíti a MongoDB Schema-k definiálását, validálását, és egy magasabb szintű intefészt biztosít a MongoDB dokumentumom kezelésére.
